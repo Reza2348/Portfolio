@@ -72,8 +72,10 @@ const ContactUS = () => {
             I seek to push the limits of creativity to create high-engaging,
             user-friendly, and memorable interactive experiences.
           </p>
-          <p className="font-semibold text-black">Youremail@gmail.com</p>
-          <p className="font-semibold text-black">1234567890</p>
+          <p className="font-semibold text-black">
+            amier.reza.n.1382@gmail.com
+          </p>
+          <p className="font-semibold text-black">09904847560</p>
         </div>
       </div>
     </section>
