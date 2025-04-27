@@ -50,11 +50,11 @@ const Header = () => {
           ))}
         </div>
 
-        <div>
-          <button className="hidden md:block bg-black text-white px-6 py-2.5 rounded-lg text-sm font-medium transition-all hover:shadow-lg items-center gap-2">
-            <a href={Fdf} className="flex items-center">
-              Resume
-              <FiDownload className="w-5 h-5 ml-2" />
+           <div>
+         <button className="hidden md:block bg-black text-white px-6 py-2.5 rounded-lg text-sm font-medium transition-all hover:shadow-lg items-center gap-2">
+          <a href={Fdf} target="_blank" className="flex items-center">
+             Resume
+             <FiDownload className="w-5 h-5 ml-2" />
             </a>
           </button>
         </div>
