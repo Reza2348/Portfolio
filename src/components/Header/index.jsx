@@ -27,9 +27,9 @@ const Header = () => {
           className="md:hidden p-2"
         >
           {isMenuOpen ? (
-            <HiX className="size-6 ml-40 sm:ml-[386px] xs-[287px]" />
+            <HiX className="size-6 ml-40 sm:ml-[386px] xs:ml-[287px]" />
           ) : (
-            <HiMenu className="size-6 ml-40 sm:ml-[386px] xs-[287px]" />
+            <HiMenu className="size-6 ml-40 sm:ml-[386px] xs:ml-[287px]" />
           )}
         </button>
 
@@ -50,11 +50,11 @@ const Header = () => {
           ))}
         </div>
 
-           <div>
-         <button className="hidden md:block bg-black text-white px-6 py-2.5 rounded-lg text-sm font-medium transition-all hover:shadow-lg items-center gap-2">
-          <a href={Fdf} target="_blank" className="flex items-center">
-             Resume
-             <FiDownload className="w-5 h-5 ml-2" />
+        <div>
+          <button className="hidden md:block bg-black text-white px-6 py-2.5 rounded-lg text-sm font-medium transition-all hover:shadow-lg items-center gap-2">
+            <a href={Fdf} target="_blank" className="flex items-center">
+              Resume
+              <FiDownload className="w-5 h-5 ml-2" />
             </a>
           </button>
         </div>
@@ -81,7 +81,8 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="#newsletter"
+              href={Fdf}
+              target="_blank"
               className="text-center w-full bg-black text-white px-6 py-2.5 rounded-lg text-sm font-medium transition-all hover:shadow-lg flex items-center justify-center gap-2"
             >
               Resume
@@ -95,3 +96,4 @@ const Header = () => {
 };
 
 export default Header;
+
