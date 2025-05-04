@@ -4,6 +4,7 @@ import { SiSass } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
+import { DiJqueryLogo } from "react-icons/di";
 
 const MySkills = () => {
   const skills = [
@@ -15,6 +16,7 @@ const MySkills = () => {
     { name: "Html5", icon: <FaHtml5 /> },
     { name: "Css3", icon: <FaCss3 /> },
     { name: "React", icon: <FaReact /> },
+        { name: "jquery", icon: <DiJqueryLogo /> },
   ];
   return (
     <section className=" text-white py-16 px-5 sm:px-0 lg:px-24 text-center mx-auto">
