@@ -40,7 +40,9 @@ const HeroSection = () => {
               <IconButton icon={<FaGithub />} />
             </a>
             <IconButton icon={<FaWhatsapp />} />
-            <IconButton icon={<FaTelegram />} />
+           <a href="https://t.me/@AMITamier82amx">
+              <IconButton icon={<FaTelegram />} />
+            </a>
           </div>
         </div>
       </div>
